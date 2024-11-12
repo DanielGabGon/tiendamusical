@@ -1,13 +1,37 @@
-<?xml version="1.0" encoding="UTF-8"?><project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>com.dangabito</groupId>
-  <artifactId>tiendamusical</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <packaging>pom</packaging>
-  <modules>
-    <module>tiendamusical-entities</module>
-    <module>tiendamusical-data</module>
-    <module>tiendamusical-services</module>
-    <module>tiendamusical-web</module>
-  </modules>
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.dangabito</groupId>
+	<artifactId>tiendamusical</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<modules>
+		<module>tiendamusical-entities</module>
+		<module>tiendamusical-data</module>
+		<module>tiendamusical-services</module>
+		<module>tiendamusical-web</module>
+	</modules>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.source>17</maven.compiler.source>
+		<maven.compiler.target>17</maven.compiler.target>
+		<junit-jupiter-api-version>5.10.0</junit-jupiter-api-version>
+		<junit-jupiter-engine-version>5.10.0</junit-jupiter-engine-version>
+		<junit-platform-launcher-version>1.10.0</junit-platform-launcher-version>
+		<hibernate-version>6.6.1.Final</hibernate-version>
+		<mysql-connector-j-version>9.1.0</mysql-connector-j-version>
+		<spring-data-jpa-version>3.3.5</spring-data-jpa-version>
+		<commons-dbcp2-version>2.12.0</commons-dbcp2-version>
+		<hibernate-jpa-2.1-api-version>1.0.2.Final</hibernate-jpa-2.1-api-version>
+		<org.springframework-version>6.1.13</org.springframework-version>
+		<org.projectlombok-version>1.18.34</org.projectlombok-version>
+		<jakarta.platform-version>10.0.0</jakarta.platform-version>
+		<jakarta.faces-version>4.0.1</jakarta.faces-version>
+		<jakarta.xml.bind-version>4.0.2</jakarta.xml.bind-version>
+		<org.primefaces-version>14.0.6</org.primefaces-version>
+		<jakarta.annotation-version>3.0.0</jakarta.annotation-version>
+	</properties>
 </project>
