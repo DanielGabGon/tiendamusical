@@ -1,0 +1,20 @@
+
+body .ui-panelgrid .ui-panelgrid-cell {
+	background-color: black;
+   /* border: 1px solid #c8c8c8;*/
+    /*background: #fff;*/
+    /*color: #333;*/
+    /*padding: .571rem 1rem;*/
+}
+
+body .ui-panel .ui-panel-content {
+	background-color: black;
+    /*border: 1px solid #ebe1e1;*/
+    /*background: #fff;*/
+    /*color: #333;*/
+    /*padding: .571rem 1rem;*/
+}
+
+.colorText{
+	color: white;
+}

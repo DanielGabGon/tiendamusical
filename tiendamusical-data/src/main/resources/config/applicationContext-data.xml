@@ -57,6 +57,6 @@
 	  <!--::::ETIQUETA QUE PERMITE UTILIZAR LA ANOTACIÓN @transactional DE SPRING PARA EJECUTAR TRANSACCIONES DE JPA:::::::-->
 	<tx:annotation-driven transaction-manager="transactionManager"/>
       <!--::::ETIQUETA QUE PERMITE UTILIZAR LAS CLASES QUE SE ENCARGAN DE EJECUTAR LAS TRANSACCIONES A LA BASE DE DATOS (DAO):::::::-->
-	<jpa:repositories base-package="com.dangabito.tiendamusicaldata.repositories" entity-manager-factory-ref="entityManagerFactory"></jpa:repositories>
+	<jpa:repositories base-package="com.dangabito.tiendamusicaldata.dao" entity-manager-factory-ref="entityManagerFactory"></jpa:repositories>
 
 </beans>
